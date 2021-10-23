@@ -33,7 +33,7 @@ container.appendChild(canvas)
 
 body.appendChild(container)
 
-createCanvas(20);
+createCanvas(16);
 slider.oninput = function(){
     adjustGrids(this.value)
 }
